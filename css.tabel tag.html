@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>table tag</title>
+    <style>
+        table, th, td{
+            border: 2px solid red;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 20px;
+        }
+        table{
+            width: 70%;
+        }
+        table#info tr:nth-child(even){
+            background-color: lightgreen;
+        }
+        table#info tr:nth-child(odd){
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>table tag</h1>
+    <table id="info">
+        <caption> student list </caption>
+        <tr>
+            <th> s.no </th>
+            <th> name </th>
+            <th colspan="2"> branch </th>
+        </tr>
+        <tr>
+            <th> 1 </th>
+            <th> raghu </th>
+            <th> eee </th>
+            <th> matchs </th>
+        </tr>
+        <tr>
+            <th> 2 </th>
+            <th> ram </th>
+            <th> esi </th>
+            <th> electric </th>
+        </tr>
+        <tr>
+            <th> 3 </th>
+            <th> ravi </th>
+            <th> ies </th>
+            <th> images </th>
+        </tr>
+        <tr>
+            <th> 4 </th>
+            <th> rakhi </th>
+            <th> eis </th>
+            <th> erase </th>
+        </tr>
+        <tr>
+            <th> 4 </th>
+            <th> rakhi </th>
+            <th> eis </th>
+            <th> erase </th>
+        </tr>
+        <tr>
+            <th> 4 </th>
+            <th> rakhi </th>
+            <th> eis </th>
+            <th> erase </th>
+        </tr>
+        <tr>
+            <th> 4 </th>
+            <th> rakhi </th>
+            <th> eis </th>
+            <th> erase </th>
+        </tr>
+    </table>
+</body>
+</html>
